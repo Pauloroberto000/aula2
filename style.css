@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .cartao-perfil {
+    width: 500px;
+    border: 1px solid #d8d50a;
+    padding: 15px;
+    display: grid;
+    background-color: #f5f5f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .info-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nome-usuario {
+    margin: 0 0 5px;
+    font-size: 1.1em;
+  }
+  
+  .biografia {
+    margin: 0;
+    color: #e60909;
+    font-size: 0.9em;
+  }
+  
+  /* 🔁 RESPONSIVO PARA TELAS PEQUENAS */
+  @media (max-width: 800px) {
+    .cartao-perfil {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .avatar {
+      margin-right: 60;
+      margin-bottom: 600px;
+    }
+  
+    .info-usuario {
+      align-items: center;
+    }
+  }
+  
