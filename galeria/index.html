@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria Responsiva</title>
+  <style>
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px; /* Espaço entre as imagens */
+      justify-content: center; /* Opcional: centraliza a galeria */
+    }
+
+    .galeria img {
+      flex: 1 1 150px; /* grow, shrink e base: ajusta a largura mínima e permite crescer ou encolher */
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px; /* Apenas para deixar mais bonito */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Galeria do Chaves.</h1>
+
+  <div class="galeria">
+    <img src="https://preview.redd.it/a-chiquinha-aparece-nessa-arte-oficial-do-desenho-v0-aka7bd0z37ve1.jpeg?width=640&crop=smart&auto=webp&s=eb8c6a848515c2dd9f3057415bc192875af57839" alt="Imagem 1">
+    <img src="https://tm.ibxk.com.br/2022/02/02/02103117701086.jpg?ims=fit-in/800x500" alt="Imagem 2">
+    <img src="https://i0.wp.com/portaldatv.com.br/wp-content/uploads/2025/02/elenco-serie-chaves.jpg?w=1280&ssl=1" alt="Imagem 3">
+    <img src="https://img.nsctotal.com.br/wp-content/uploads/2024/08/Chaves-estreiou-no-Mexico-em-1973-e-no-Brasil-em-1984.-Foto-Divulgacao-Televisa-944x531.jpg" alt="Imagem 4">
+    <img src="https://recreio.com.br/media/_versions/series/chaves_capa_widelg.jpg" alt="Imagem 5">
+    <img src="https://www.otempo.com.br/adobe/dynamicmedia/deliver/dm-aid--65046512-122a-4eab-8eb4-01af869f5a6d/entretenimento-parte-do-elenco-de-chaves-1733865899.webp?width=1200&quality=90&preferwebp=true" alt="Imagem 6">
+  </div>
+
+</body>
+</html>
